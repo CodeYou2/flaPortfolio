@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+    background-color: #fff;
+    color: #555555;
+    font-family:'Lato','Arial', sans-serif;
+    font-weight: 300;
+}
+
+/*----- header started -----*/
+
+header{
+    background-image: linear-gradient(rgba(38, 38, 38, 0.79), rgba(34, 34, 34, 0.7)),url(kundremukh-udayaditya.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header h1{
+    color: #ededed;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-size: 60px;
+    padding: 15%;
+}
+.Activity h1{
+    margin-bottom: 5%;
+}
+.Act_content{
+    display: flex;
+    justify-content: space-around;
+}
+.A_image img{
+    flex-basis: 50%;
+    max-width:  60%;
+}
+.A_Text p{
+    flex-basis: 50%;
+    max-width: 80%;
+    margin: 25% 0;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.A_Text span{
+    font-size: 180%;
+}
+.Activity{
+    margin-bottom: 10%;
+}
+
+.h_right{
+    margin-left: 15%;
+}
+.special1 {
+    font-size: 90px;
+}
+.right_way{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 84.5%;
+}
+.right_way li{
+    margin-left: 40px;
+    list-style: none;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+.right_way li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+/*-social icons-*/
+
+.social_image{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -28%;
+    border-radius: 0px 20px 20px 0;
+    z-index: 3;
+}
+.social_image li{
+    list-style: none;
+    padding: 15px 15px 0;
+}
+.social_image a{
+    text-decoration: none;
+}
+.social_image img{
+    max-width: 35px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.extra2 img{
+    margin-bottom: 15px;
+}
+
+/*----- header ended -----*/
+
+/*----- ALL Backgroung image started-----*/
+
+.photo {
+    background-image: url(Web%201920%20%E2%80%93%2012.png);
+    background-size: cover;
+    background-position: center;
+    height: 430vh;
+    background-attachment: fixed;
+}
+
+.Activity{
+    height: 100vh;
+}
+
+.Activity h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #141414;
+    padding-top: 7%;
+}
+.gallery h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #141414;
+    padding-top: 7%;
+}
+
+
+/*----- Slides -----*/
+
+.carousel-inner {
+    max-width: 80%;
+    margin-top: 5%;
+}
+
+.carousel-control-prev {
+    background-color: rgba(142, 177, 117, 0.51);
+}
+.carousel-control-next {
+    background-color: rgba(93, 147, 54, 0.51);
+}
+
+.carousel-caption {
+    z-index: 5;
+    color: #000;
+}
+
+
+
+/*---- hub ----*/
+.Hobbies h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #141414;
+    padding-top: 7%;
+}
+
+
+
+.h_insider {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+    margin-left: 4%;
+}
+
+.h_insider img{
+    max-width: 80%;
+}
+.col1 img{
+    max-width: 150%;
+}
+.col2 img{
+    max-width: 35%;
+}
+.col2 p{
+    max-width: 30%;
+}
+.col2{
+    margin-left: 5%;
+}
+
+.col3 img{
+    max-width: 65%;
+}
+.col3 p{
+    max-width: 65%;
+    margin-top: 5%;
+}
+.col2 p{
+    max-width: 50%;
+    margin-top: 5%;
+}
+.col1 p{
+    margin-top: 5%;
+    max-width: 120%;
+    margin-left: 30%;
+}
+
+/* ----- hub 2---- */
+
+.h_insider2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+    margin-left: 4%;
+}
+
+.h_insider2 img{
+    max-width: 80%;
+}
+
+.col4 img{
+    max-width: 50%;
+}
+
+.col5 img{
+    max-width: 80%;
+}
+.col5{
+    margin-left: 5%;
+}
+
+.col6 img{
+    max-width: 90%;
+}
+.col6 p{
+    max-width: 65%;
+    margin-top: 5%;
+}
+.col5 p{
+    max-width: 90%;
+    margin-top: 5%;
+}
+.col4 p{
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+
+/*---footer---*/
+footer{
+    font-size: 15px;
+    margin-top: 1.5%;
+}
+
+
+
+
+
+/* ----- responsive ----- */
+
+/*small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    header{
+        display: flex;
+        width: 128%;
+        height: 130vh;
+    }
+    .Right_bar{
+        display: none;
+    }
+    header h1{
+        padding-top: 35%;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+        margin-left: 5%;
+    }
+    .h_right{
+        justify-content: center;
+        align-items: center;
+    }
+    .photo {
+        width: 128%;
+        height: 680vh;
+    }
+    
+    .Act_content{
+        display: block;
+    }
+    .A_Text p{
+        margin: 15% 0;
+        font-size: 150%;
+    }
+    
+    .carousel-inner img{
+        height: 40vh;
+        max-width: 130%;
+    }
+    .gallery{
+        margin-bottom: 20%;
+    }
+    .gallery h1{
+        margin-top: 65%;
+    }
+    .social_image{
+        margin-top: -100%;
+    }
+
+    .h_insider {
+        display: block;
+    }
+    .h_insider2 {
+        display: block;
+    }
+    .h_insider, .h_insider2{
+        font-size: 25px;
+    }
+    .col1, .col2, col3, .col4, .col5, .col6{
+        margin-bottom: 15%;
+    }
+    
+    
+    
+    footer{
+        display: block;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+}
